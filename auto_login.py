@@ -48,7 +48,7 @@ def extension_login():
     # Set global implicit wait
     browser.implicitly_wait(20)
 
-    browser.get('https://music.163.com')
+    browser.get('https://music.163.com/#')
 
     # Inject Cookie to skip login
     logging.info("Injecting Cookie to skip login")
